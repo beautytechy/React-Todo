@@ -4,4 +4,11 @@
 
 .item.completed {
     text-decoration: line-through;
+    background-color: yellow;
+}
+
+.clear-button {
+    background-color: grey;
+    color: white;
+    font-size: 1rem;
 }
