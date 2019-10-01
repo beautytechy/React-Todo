@@ -1,7 +1,51 @@
+.App {
+    width: 1000px;
+    margin: auto;
+    background-color: #fafafa;
+    justify-content: center;
+}
+
+.header {
+   text-align: center;
+}
 .list {
-    color: blue;
+    color: black;
+    margin: 5%;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+ 
+}
+
+.list p {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  
+}
+.item {
+    background-color: rgb(185, 241, 239);
+    width: 100px;
+    height: 100px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    margin: 20px; 
 }
 
 .item.completed {
     text-decoration: line-through;
+    background-color: yellow;
+}
+.button-section {
+    margin: 20px;
+}
+.clear-button {
+    background-color: grey;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    display: flex;
+    width: 100px;
 }

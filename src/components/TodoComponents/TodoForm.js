@@ -27,7 +27,7 @@ class TodoForm extends Component {
                     name='item'
                     onChange={this.handleChanges}
                 />
-                <button>Add Todo</button>
+                <button>Add To List</button>
             </form>
         );
     }
