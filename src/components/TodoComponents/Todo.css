@@ -1,0 +1,7 @@
+.list {
+    color: blue;
+}
+
+.item.completed {
+    text-decoration: line-through;
+}
