@@ -7,13 +7,33 @@ import "./components/TodoComponents/Todo.css"
 
 const goalsData = [
   {
-    name: 'Eat Food',
+    task: 'Eat Food',
     id: 1,
     completed: false
   },
   {
-    name: 'Drink Water',
+    task: 'Drink Water',
     id: 2,
+    completed: false
+  },
+  {
+    task: 'Shower',
+    id: 3,
+    completed: false
+  },
+
+  {
+    task: 'Study React',
+    id: 4,
+    completed: false
+  },
+  {
+    task: 'Study React',
+    id: 5,
+    completed: false
+  },  {
+    task: 'Study React',
+    id: 6,
     completed: false
   }
 ]
@@ -22,7 +42,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      name: 'Study React',
+      task: 'Study React',
       goals: goalsData,
     };
 
@@ -49,7 +69,7 @@ class App extends Component {
 
   addItem = itemName => {
     const newItem = {
-      name: itemName,
+      task: itemName,
       id: Date.now(),
       completed: false
     };
